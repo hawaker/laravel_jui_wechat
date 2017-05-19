@@ -10,6 +10,13 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+/*Route::any("weixin/account/{act}.html",function($act){
+  Route::callAction("AccountController@".$act);
+});*/
+/*Route::get("weixin/account/create.html","AccountController@create");
+Route::get("weixin/account/list.html","AccountController@list");
+Route::post("weixin/account/create.html","AccountController@createAccount");*/
+Route::resource("weixin/account","AccountController");
 
 Route::any('{name}.html', function ($name) {
     return view($name);

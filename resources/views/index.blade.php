@@ -184,7 +184,6 @@
 									<li><a href="demo/sortDrag/form.html" target="navTab" rel="sortDrag">可拖动表单示例</a></li>
 								</ul>
 							</li>
-									
 							<li><a>表单组件</a>
 								<ul>
 									<li><a href="w_validation.html" target="navTab" rel="w_validation">表单验证</a></li>
@@ -250,6 +249,12 @@
 						<ul class="tree">
 							<li><a href="newPage1.html" target="dialog" rel="dlg_page">列表</a></li>
 							<li><a href="newPage1.html" target="dialog" rel="dlg_page2">列表</a></li>
+						</ul>
+					</div>
+          <div class="accordionHeader"><h2><span>Folder</span>微信功能(开发中...)</h2></div>
+					<div class="accordionContent">
+						<ul class="tree">
+							<li><a href="weixin/account" target="navTab" rel="account_list">微信号管理</a></li>
 						</ul>
 					</div>
 				</div>
